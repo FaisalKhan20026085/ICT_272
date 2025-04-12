@@ -60,7 +60,7 @@ namespace MyApplication
             String name;
             String type;
             String jersey;
-            Console.WriteLine("                                            Welcome to Tigers Scoccer Club");
+            Console.WriteLine("                                            Welcome to the official Tigers Scoccer Club Registration!");
             Console.WriteLine("Enter the total no of registration");
             no_of_registration = Convert.ToInt32(Console.ReadLine());
             do
@@ -139,6 +139,7 @@ namespace MyApplication
                 }
             }
             Console.WriteLine(output);
+	    Console.WriteLine("Thank you for registering with us. Good luck to all players!");
 
 
 
